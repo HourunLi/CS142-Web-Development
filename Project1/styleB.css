@@ -1,0 +1,35 @@
+body {
+    font-family:  Tahoma, Arial, sans-serif;
+    font-size: 40px;
+}
+.container1 {
+    display: flex;
+    align-items: left;
+    flex-direction: row;
+}
+
+.container2 {
+    display: flex;
+    align-items: left;
+    flex-direction: row-reverse;
+    position: fixed;
+    bottom: 0;
+	right: 0;
+}
+
+p {
+    background-color: #eeeff2;
+    width: 90px;
+    height: 150px;
+    border-left: 10px dotted #D0D0FF;
+    padding-left: 10px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+p:hover {
+    background-color: yellow;
+    color: goldenrod;
+    cursor: pointer;
+}
+
